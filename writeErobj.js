@@ -9,7 +9,7 @@ function writeErobj(erobj) {
     
        fs.writeFileSync('data.txt',str)
 
-        console.log("数据以写入data.txt...");
+        console.log("数据以写入data.txt..."); 
         
         return str
 };
